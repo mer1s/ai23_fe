@@ -252,7 +252,7 @@ const Playground = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/algorithms/get-path",
+        "https://django-api-eazf.vercel.app/api/get-path",
         {
           agent,
           prices: newMatrix,
