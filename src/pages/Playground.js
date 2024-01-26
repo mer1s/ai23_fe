@@ -264,6 +264,7 @@ const Playground = () => {
         cost: response.data.pathCost,
         time: response.data.elapsedTime,
       });
+      if(agent === "aki") alert("Oduzmite cenu od prvog do poslednjeg cvora!")
     } catch (err) {
       alert("Something went wrong...");
       console.log(err);
